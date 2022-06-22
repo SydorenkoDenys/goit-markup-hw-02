@@ -1,0 +1,89 @@
+/* var */
+.root {
+    --primary-color: #212121;
+    --secondary-color: #757575;
+    --accent-color: #2196F3;
+    --primary-font: Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
+    --primary-background: #ffffff;
+    --secondary-background: ##F5F4FA;
+    --footer-background: #2F303A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--primary-background);
+    font-family: var(--primary-font);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: var(--primary-color);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {    
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;   
+    color: #2196F3;
+}
+.logo-header {
+    color: #000000;
+}
+
+/* .nav-list {
+    margin-left: 90px;
+} */
+
+.nav-item {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.nav-item.current {
+    color: var(--accent-color);
+}
+
+.nav-item:hover, .nav-item:focus {
+    color: var(--accent-color);
+}
+
+.contact-header-list {
+
+}
+
+.contact-header-item {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;  
+    color: var(--secondary-color);  
+}
+
+.contact-header-item:hover, .contact-header-item:focus {
+    color: var(--accent-color);
+}
+
+
+
+
+
+.logo-footer {
+    color: #ffffff;
+}
