@@ -300,7 +300,7 @@ a {
     background-color: #FFFFFF;
     margin-right: 30px;
     margin-bottom: 30px;
-    /* border: 1px #EEEEEE solid; */
+    border: 1px #EEEEEE solid;
 }
 
 .portfolio-item:hover, .portfolio-item:focus {
