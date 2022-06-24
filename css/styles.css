@@ -299,8 +299,12 @@ a {
 .portfolio-item {
     background-color: #FFFFFF;
     margin-right: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 30px;    
+}
+
+.border {
     border: 1px #EEEEEE solid;
+    border-top: none;
 }
 
 .portfolio-item:hover, .portfolio-item:focus {
